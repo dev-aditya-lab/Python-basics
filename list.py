@@ -25,10 +25,15 @@ print(myList[::-1])
 myList.append("New Element")
 
 # add an element to the list at a specific index
+# here, "New Element" is added at index 1
 myList.insert(1, "New Element")
 
 # remove an element from the list
 myList.remove("John")
+
+# update an element in the list
+# here, the element at index 0 is updated
+myList[0] = 456
 
 # remove the last element from the list
 myList.pop()
@@ -41,3 +46,16 @@ myList.clear()
 
 # sort the list
 myList.sort()
+
+
+# to copy the list
+myList = [123, "John", "Doe", 123.51]
+newList = myList.copy()
+
+
+# hears a list of numbers from 0 to 9
+# and then squares each number in the list
+# and stores the squared numbers in a new list
+squaredList = [x**2 for x in range(10)]
+print(squaredList)
+# Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
