@@ -1,5 +1,8 @@
 myTuple = (1, 2, 3, 4, 5)
 
+# count the number of times 1 appears in the tuple
+print(myTuple.count(1))
+
 # print the tuple
 print(myTuple[0])
 

@@ -4,6 +4,8 @@ userDetails = {
     "city": "New York"
 }
 
+
+
 # print the entire dictionary
 print(userDetails)
 

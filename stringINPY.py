@@ -50,7 +50,7 @@ print(name.split("d"))
 print("-".join(["a", "d", "i", "t", "y", "a"]))
 
 # remove leading and trailing whitespaces from the string
-name = " aditya "
+name = " ishika "
 print(name.strip())
 
 # remove leading whitespaces from the string
