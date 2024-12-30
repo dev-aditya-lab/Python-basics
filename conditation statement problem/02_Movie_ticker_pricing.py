@@ -13,7 +13,7 @@ print("Your ticket price is ${price}")
 
 
 
-
+# different way of writing the above code
 # if age <18: 
 #     if day == "Wednesday":
 #         print("Your ticket price is $6")
